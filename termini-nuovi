@@ -10,8 +10,8 @@ Parametro formale = è il parametro inserito nella definizione della funzione
 Parametro attuale = è il parametro utilizzato nel programma
 
 esempio:
- def scambia(lst): #lista è il parametro formale
-   lst.reverse()
-   return lst
- elementi = [(input("Inserisci un elemento: ")) for i in range(0,4)]
- scambia(elementi) #elementi è il parametro attuale
+  def scambia(lst): #lista è il parametro formale
+    lst.reverse()
+    return lst
+  elementi = [(input("Inserisci un elemento: ")) for i in range(0,4)]
+  scambia(elementi) #elementi è il parametro attuale
