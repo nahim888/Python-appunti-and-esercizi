@@ -1,8 +1,17 @@
 Slicing = meccanismo attraverso il quale recuperiamo una parte di una lista in Python.
 List comprehension = meccanismo attraverso il quale costruiamo una lista scrivendo nelle parentesi quadre le istruzioni per generare i singoli elementi della lista.
 
-Funzione = 
-è un construtto sintattico dei linguaggi di programmazione che permette di raggruppare una serie di istruzioni che di solito vengono ripetute più volte nel programma;
+Funzione = è un construtto sintattico dei linguaggi di programmazione che permette di raggruppare una serie di istruzioni che di solito vengono ripetute più volte nel programma;
 una funzione può avere uno o più argomenti in entrata (anche zero); 
 una funzione deve avere anche dei valori in uscita.
 Argomenti o parametri = valori in ingresso su cui avviene l'elaborazione.
+
+Parametro formale = è il parametro inserito nella definizione della funzione
+Parametro attuale = è il parametro utilizzato nel programma
+
+esempio:
+ def scambia(lst): #lista è il parametro formale
+   elementi.reverse()
+   return elementi
+ elementi = [(input("Inserisci un elemento: ")) for i in range(0,4)]
+ scambia(elementi) #elementi è il parametro attuale
