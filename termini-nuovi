@@ -15,3 +15,5 @@ esempio:
     return lst
   elementi = [(input("Inserisci un elemento: ")) for i in range(0,4)]
   scambia(elementi) #elementi è il parametro attuale
+
+Map = è una funzione che applica a ogni elemento di ogni lista una funzione - map (funzione,lista)
