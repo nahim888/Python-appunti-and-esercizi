@@ -17,3 +17,5 @@ esempio:
   scambia(elementi) #elementi è il parametro attuale
 
 Map = è una funzione che applica a ogni elemento di ogni lista una funzione - map (funzione,lista)
+
+Pandas è una libreria di Python che serve all'analisi e alla manipolazione dei dati.
